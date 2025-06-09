@@ -82,3 +82,40 @@ img{
    height: auto;
    object-fit: cover;
 }
+
+.section1{
+    /*border:red solid 2px;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.randomtext{
+    /*border:rgb(39, 15, 145) solid 2px;*/
+    width: 70%;
+    margin: 25px auto 30px auto;
+}
+.ilustrations{
+    display: flex;
+    justify-content: space-around;
+    /*border:rgb(29, 231, 231) solid 2px;*/
+    width: 70%;
+    flex-wrap: wrap;
+}
+.ilustration{
+    /*border:rgb(143, 27, 167) solid 2px;*/
+    height: 250px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ilustr-image{
+    border:rgb(52, 199, 84) solid 2px;
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
